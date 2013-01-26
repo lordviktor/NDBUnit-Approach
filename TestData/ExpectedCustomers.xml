@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<DBSchema xmlns="http://tempuri.org/DBSchema.xsd">
+  <Customers>
+    <CompanyName>Around the Horn</CompanyName>
+    <ContactName>Thomas Hardy</ContactName>
+    <ContactTitle>Sales Representative</ContactTitle>
+    <Address>120 Hanover Sq.</Address>
+  </Customers>
+  <Customers>
+    <CompanyName>Du monde entier</CompanyName>
+    <ContactName>Janine Labrune</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>67, rue des Cinquante Otages</Address>
+  </Customers>
+</DBSchema>

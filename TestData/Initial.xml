@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DBSchema xmlns="http://tempuri.org/DBSchema.xsd">
+
+  <Customers>
+		<CustomerID>1</CustomerID>
+		<CompanyName>Around the Horn</CompanyName>
+		<ContactName>Thomas Hardy</ContactName>
+		<ContactTitle>Sales Representative</ContactTitle>
+		<Address>120 Hanover Sq.</Address>
+	</Customers>
+  <Customers>
+    <CustomerID>2</CustomerID>
+    <CompanyName>Du monde entier</CompanyName>
+    <ContactName>Janine Labrune</ContactName>
+    <ContactTitle>Owner</ContactTitle>
+    <Address>67, rue des Cinquante Otages</Address>
+  </Customers>
+
+  <Employees>
+    <EmployeeID>1</EmployeeID>
+    <LastName>Michela</LastName>
+    <FirstName>Davolio</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Ms.</TitleOfCourtesy>
+    <BirthDate>1948-08-12T00:00:00</BirthDate>
+    <HireDate>1992-05-01T00:00:00</HireDate>
+    <Address>507 - 20th Ave. E.
+      Apt. 2A</Address>
+  </Employees>
+  <Employees>
+    <EmployeeID>2</EmployeeID>
+    <LastName>Michela</LastName>
+    <FirstName>Davolio</FirstName>
+    <Title>Sales Representative</Title>
+    <TitleOfCourtesy>Ms.</TitleOfCourtesy>
+    <BirthDate>1948-08-12T00:00:00</BirthDate>
+    <HireDate>1992-05-01T00:00:00</HireDate>
+    <Address>507 - 20th Ave. E.
+      Apt. 2A</Address>
+  </Employees>
+
+  <Orders>
+    <OrderID>1</OrderID>
+    <CustomerID>1</CustomerID>
+    <EmployeeID>1</EmployeeID>
+    <OrderDate>2007-01-01T00:00:00</OrderDate>
+    <ShippedDate>2007-01-05T00:00:00</ShippedDate>
+    <ShipAddress>120 Hanover Sq.</ShipAddress>
+  </Orders>
+
+  <OrderDetails>
+    <OrderID>1</OrderID>
+    <SKU>CPU-64X2</SKU>
+    <UnitPrice>200</UnitPrice>
+    <Quantity>2</Quantity>
+    <Discount>0.05</Discount>
+  </OrderDetails>
+  <OrderDetails>
+    <OrderID>1</OrderID>
+    <SKU>CPU-Intel</SKU>
+    <UnitPrice>249</UnitPrice>
+    <Quantity>300</Quantity>
+    <Discount>0.09</Discount>
+  </OrderDetails>
+  
+</DBSchema>
