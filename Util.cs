@@ -6,6 +6,7 @@ namespace NDbUnitQuery
 {
     internal class Util
     {
+        
         private const string rootNamespace = "NDbUnitXPath";
         
         internal static Stream ResourceStream(string resourceName)
