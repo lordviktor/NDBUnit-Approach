@@ -14,9 +14,8 @@ namespace NDbUnitQuery
         {
             Assert.AreEqual(expected.Rows.Count, actual.Rows.Count, "Different number of rows in table: {0}", expected.TableName );
             for (int i = 0; i < expected.Rows.Count; i++)
-            {
                 AreEqual(expected.Rows[i], actual.Rows[i], i);
-            }
+            
             return true;
         }
 
