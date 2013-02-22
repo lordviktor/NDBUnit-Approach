@@ -5,6 +5,7 @@ using NUnit.Framework;
 
 namespace NDbUnitQuery
 {
+    
     [TestFixture]
     public class DetailedTesting : TestBase
     {
